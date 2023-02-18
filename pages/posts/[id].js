@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout.js";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";

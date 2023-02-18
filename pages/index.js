@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
-import Layout, { siteTitle } from "./components/layout";
+import Layout, { siteTitle } from "./components/Layout.js";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Script from "next/script";
