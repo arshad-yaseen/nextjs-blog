@@ -6,6 +6,7 @@ import Link from "next/link";
 import Layout, { siteTitle } from "./components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +26,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <script src="https://cdn.tailwindcss.com"></script>
       </Head>
+      <Script src="https://cdn.tailwindcss.com" />
       <section className={utilStyles.headingMd}>
         <p className="mt-4">
           Founder and CEO at @TeamGlowit ✦ Am Self Taught Fullstack Web
